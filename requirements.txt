@@ -1,0 +1,4 @@
+numpy
+sympy
+roboticstoolbox-python
+spatialmath-python
