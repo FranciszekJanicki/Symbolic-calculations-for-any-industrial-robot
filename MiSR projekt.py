@@ -38,6 +38,7 @@ def printDynamicsEquation(D, C, G):
 
 
 def createRobot():
+    # you create you robot with rtb.DHRobot class constructor using standard Denavit-Hartenberg notation
     r = rtb.DHRobot([
         rtb.RevoluteDH(alpha=-pi()/2, d=d[0]), # symbolic manipulator's links
         rtb.RevoluteDH(alpha=pi()/2, d=d[1]),
